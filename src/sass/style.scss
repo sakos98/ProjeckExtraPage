@@ -1,0 +1,355 @@
+/* Body */
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+/* Navbar*/
+.navbars {
+  position: relative;
+  height: 900px;
+}
+
+.background-navbar{    
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background: url("../images/background.png") no-repeat center;
+  background-size: cover;
+   filter: 
+     contrast(170%)
+     saturate(80%)
+     brightness(25%)
+     blur(0.2px)
+     opacity(92%);
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.navbar a {
+  color: #ffffff;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.navbar .right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.navbar .left a {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar .right a {
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 20px;
+  color: grey;
+}
+
+.nav-link-right {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .tigre {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 300px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.navbar .coffe {
+  display: flex;
+  font-size: 12px;
+  padding-left: 300px;
+}
+
+.navbar-description {
+  display: flex;
+  flex-direction: column;
+  color: #BEA67C;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 200px;
+}
+
+.navbar-text {
+  line-height: 0.3;
+}
+
+.home {
+  font-size: 50px;
+  padding-left: 100px;
+  letter-spacing: 15px;
+}
+
+.orginal {
+  font-size: 50px;
+  padding-left: 400px;
+  letter-spacing: 15px;
+}
+
+.navbar-hr{
+  width: 20%;
+  color: #BEA67C;
+  border: 3px solid;
+}
+
+.discover {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-top: 150px;
+  line-height: 0.1;
+}
+
+.navbar-discover {
+  padding-top: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.arrow {
+  padding-top: 20px;
+}
+
+.navbar-description .discover {
+  color: #ffffff;
+}
+
+/* Galery*/
+.products-description {
+  font-size: 40px;
+  color: #BEA67C;
+  text-align: center;
+}
+
+.hr-products {
+  width: 30%;
+  color: #BEA67C;
+  border: 2px solid;
+}
+
+[class^="skill-"] {
+  position: relative; 
+}
+
+.position-products {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.position-skills {
+  display: flex;
+  flex: 1 85%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20%;
+}
+
+.skills {
+  padding-bottom: 100px;
+}
+
+.skill-image {
+  position: absolute;
+  overflow: hidden; 
+  padding: auto;
+  filter: drop-shadow(30px 30px 30px  #bdbdcc);
+}
+
+.skill-image img {
+  width: 100%;
+  height: 350px;
+}
+
+.skill-description{
+  height: 350px;
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.skill-left .skill-image {
+  right: 0; 
+}
+
+.skill-left .skill-description {
+  padding: 36px 55% 36px 20%;
+  text-align: right; 
+}
+
+.skill-right .skill-description {
+  padding: 36px 0 36px 55%;
+  text-align: left; 
+}
+.skill-description{
+p {
+  text-align: left;
+}
+}
+
+.skill-title{
+  font-size: 30px;
+  text-align: left;
+  line-height: 0.1;
+}
+
+.hr-description {
+  width: 20%;
+  padding-right: 40px;
+}
+
+.skill-description-hr {
+  border: 1px solid;
+  color: #BEA67C;
+}
+
+.hr-description {
+  float: left;
+}
+
+.scale {
+  padding-top: 10px;
+  line-height: 0.2;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+
+.roasting-one::after {
+  content: " 5/10";
+  color: #BEA67C;
+}
+
+.intensity-one::after {
+  content: " 6/10";
+  color: #BEA67C;
+}
+
+.roasting-two::after {
+  content: " 8/10";
+  color: #BEA67C;
+}
+
+.intensity-two::after {
+  content: " 9/10";
+  color: #BEA67C;
+} 
+
+.roasting-theere::after {
+  content: " 3/10";
+  color: #BEA67C;
+}
+
+.intensity-theere::after {
+  content: " 7/10";
+  color: #BEA67C;
+} 
+
+/* Carusel */
+.main {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.background-about{  
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  filter: 
+    contrast(170%)
+    saturate(70%)
+    sepia(0%)
+    brightness(50%)
+    blur(0.8px)
+    opacity(90%);
+}
+
+.background-about img {
+  width: 100%;
+  height: 800px;
+}
+
+.about-description {
+  height: 800px;
+  width: 100%;
+  position: absolute;
+}
+
+.title-about {
+  font-weight: 900;
+  font-size: 60px;
+  color: #BEA67C;
+  text-align: center;
+  padding-top: 35px;
+  letter-spacing: 5px;
+}
+
+.line-about {
+  color: #BEA67C;
+  width: 45%;
+  border: 3px solid;
+}
+
+.right-about {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.img-about {
+  width: 40%;
+  text-align: right;
+  float: left;
+}
+
+.text-about-person {
+  width: 30%;
+  text-align: left;
+  float: left;
+  color: #ffffff;
+}
+
+ol {
+  list-style: none;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 100px;
+}
+
+ol .elizabeth::after {
+  content: " Doherty";
+  color: #ffffff;
+  font-weight: bold;
+}
+
+ol .max::after {
+  content: " Selfish";
+  color: #ffffff;
+  font-weight: bold;
+}
+
+ol .ping::after {
+  content: " Nihao";
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.p-about {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 100px;
+}
