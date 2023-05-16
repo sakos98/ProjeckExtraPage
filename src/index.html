@@ -20,14 +20,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,900;1,600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
+  <!-- NAVBAR -->
   <div class="navbars">
     <div class="background-navbar"></div>
     <div class="navbar left">
+      <div class="navbar-position">
       <a href="#" class="nav-link tigre">EL TIGRE</a>
       <a href="#" class="nav-link coffe"> VENEZUELA COFFEE BEANS </a>
+      </div>
       <div class="navbar right">
         <a href="#" class="nav-link">HOME</a>
         <a href="#products" class="nav-link">PRODUCTS</a>
@@ -36,13 +42,15 @@
     </div>
     <div class="navbar-description">
       <div class="navbar-text">
-        <div class="home">
-          <h1>HOME OF</h1>
+        <div>
+          <h1 class="home">HOME OF</h1>
         </div>
-        <div class="orginal">
-          <h1>ORGINAL TASTES</h1>
+        <div>
+          <h1 class="orginal">ORGINAL TASTES</h1>
         </div>
+        <div class="navbar-hr-position">
         <hr class="navbar-hr">
+        </div>
       </div>
       <div class="navbar-discover">
         <p class="discover">DISCOVER</p>
@@ -50,75 +58,88 @@
       </div>
     </div>
   </div>
-  <section class="skills" id="products">
-    <div class="container">
-      <div class="products-description">
+  <!-- END NAVBAR -->
+  <!-- PRODUCTS -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-10">
         <h2 class="section-title">PRODUCTS</h2>
+        <div class="hr-products-position">
         <hr class="hr-products">
+        </div>
       </div>
-      <div class="position-products">
-        <div class="position-skills">
-      <article class="skill-left">
-        <div class="skill-image">
-          <img src="../images/coffee-1.png" alt="coffe1">
+      <div class="col-5">
+        <div class="box-description">
+        <h1 class="title-products">0.1 LA LAGARTIJA</h1>
+        <div class="small-description">
+          <div class="small-hr-position">
+          <hr class="small-hr">
+          </div>
+          <div class="small-paragraph">
+        <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
+          pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
+          </div>
         </div>
-        <div class="skill-description">
-          <h3 class="skill-title"> 01. LA LAGARTIJA</h3>
-          <div class="hr-description">
-          <hr class="skill-description-hr">
-          </div>
-          <div class="p-products">
-          <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
-            pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
-          </div>
           <div class="scale">
-          <p class="roasting-one">ROASTING: </p>
-          <p class="intensity-one">INTENSITY: </p>
-          </div>
+            <p class="roasting-one">ROASTING: </p>
+            <p class="intensity-one">INTENSITY: </p>
+            </div>
         </div>
-      </article>
-      <article class="skill-right">
+        </div>
+      <div class="col-5">
         <div class="skill-image">
-          <img src="../images/coffee-2.png" alt="coffe2">
+        <img src="../images/coffee-1.png" alt="coffe1">
         </div>
-        <div class="skill-description">
-          <h3 class="skill-title">02. EL TIGRE</h3>
-          <div class="hr-description">
-          <hr class="skill-description-hr">
-          </div>
-          <div class="p-products">
-          <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
-            pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
-          </div>
-          <div class="scale">
-          <p class="roasting-two">ROASTING: </p>
-          <p class="intensity-two">INTENSITY: </p>
-          </div>
-        </div>
-      </article>
-      <article class="skill-left">
+      </div>
+      <div class="col-5">
         <div class="skill-image">
-          <img src="../images/coffee-3.png" alt="coffe3">
+        <img src="../images/coffee-2.png" alt="coffe1">
         </div>
-        <div class="skill-description">
-          <h3 class="skill-title">03. LA CUCARACHA</h3>
-          <div class="hr-description">
-          <hr class="skill-description-hr">
+      </div>
+      <div class="col-5">
+        <div class="box-description left">
+        <h1 class="title-products">0.2 EL TIGRE</h1>
+        <div class="small-description">
+          <div class="small-hr-position">
+          <hr class="small-hr">
           </div>
-          <div class="p-products">
-          <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
-            pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
+          <div class="small-paragraph">
+        <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
+          pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
           </div>
+        </div>
           <div class="scale">
-          <p class="roasting-theere">ROASTING: </p>
-          <p class="intensity-theere">INTENSITY: </p>
+            <p class="roasting-one">ROASTING: </p>
+            <p class="intensity-one">INTENSITY: </p>
+            </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="box-description">
+        <h1 class="title-products">0.3 LA CUCARACHA</h1>
+        <div class="small-description">
+          <div class="small-hr-position">
+          <hr class="small-hr">
+          </div>
+          <div class="small-paragraph">
+        <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
+          pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
           </div>
         </div>
-      </article>
-    </div>
+          <div class="scale">
+            <p class="roasting-one">ROASTING: </p>
+            <p class="intensity-one">INTENSITY: </p>
+            </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="skill-image">
+        <img src="../images/coffee-3.png" alt="coffe1">
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+  <!-- END PRODUCTS -->
   <!-- KARUZELA -->
   <div class="main-carousel" data-flickity='{"autoPlay": true, "wrapAround": true }'>
     <div class="main">
