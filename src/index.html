@@ -2,225 +2,694 @@
 <html lang="en">
 
 <head>
-  <script src="https://kit.fontawesome.com/024f0574f0.js" crossorigin="anonymous"></script>
+  <title>New Project</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Coffie Page</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,900;1,600&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <div class="navbars">
-    <div class="background-navbar"></div>
-    <div class="navbar left">
-      <div class="navbar-position">
-      <a href="#" class="nav-link tigre">EL TIGRE</a>
-      <a href="#" class="nav-link coffe"> VENEZUELA COFFEE BEANS </a>
-      </div>
-      <div class="navbar right">
-        <a href="#" class="nav-link">HOME</a>
-        <a href="#products" class="nav-link">PRODUCTS</a>
-        <a href="#" class="nav-link">CONTACT</a>
-      </div>
-    </div>
-    <div class="navbar-description">
-      <div class="navbar-text">
-        <div>
-          <h1 class="home">HOME OF</h1>
-        </div>
-        <div>
-          <h1 class="orginal">ORGINAL TASTES</h1>
-        </div>
-        <div class="navbar-hr-position">
-        <hr class="navbar-hr">
-        </div>
-      </div>
-      <div class="navbar-discover">
-        <p class="discover">DISCOVER</p>
-        <i class="fa-regular fa-circle-down arrow"></i>
-      </div>
-    </div>
-  </div>
-  <!-- END NAVBAR -->
-  <!-- PRODUCTS -->
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-10">
-        <h2 class="section-title">PRODUCTS</h2>
-        <div class="hr-products-position">
-        <hr class="hr-products">
-        </div>
-      </div>
-      <div class="col-5">
-        <div class="box-description">
-        <h1 class="title-products">0.1 LA LAGARTIJA</h1>
-        <div class="small-description">
-          <div class="small-hr-position">
-          <hr class="small-hr">
-          </div>
-          <div class="small-paragraph">
-        <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
-          pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
-          </div>
-        </div>
-          <div class="scale">
-            <p class="roasting-one">ROASTING: </p>
-            <p class="intensity-one">INTENSITY: </p>
+  <!-- NAVBAR START -->
+  <div class="navbars" id="home">
+    <div class="background-image-navbar"></div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="navbar">
+          <div class="col">
+            <div class="left-navbar">
+              <a href="#" class="alecto-navbar">Alecto</a>
             </div>
-        </div>
-        </div>
-      <div class="col-5">
-        <div class="skill-image">
-        <img src="../images/coffee-1.png" alt="coffe1">
-        </div>
-      </div>
-      <div class="col-5">
-        <div class="skill-image">
-        <img src="../images/coffee-2.png" alt="coffe1">
-        </div>
-      </div>
-      <div class="col-5">
-        <div class="box-description left">
-        <h1 class="title-products">0.2 EL TIGRE</h1>
-        <div class="small-description">
-          <div class="small-hr-position">
-          <hr class="small-hr">
           </div>
-          <div class="small-paragraph">
-        <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
-          pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
-          </div>
-        </div>
-          <div class="scale">
-            <p class="roasting-one">ROASTING: </p>
-            <p class="intensity-one">INTENSITY: </p>
+          <div class="col">
+            <div class="right-navbar">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#work">Team</a>
+
+              <a href="#pricing">Pricing</a>
+              <i class="fa-solid fa-magnifying-glass"></i>
             </div>
+          </div>
         </div>
       </div>
-      <div class="col-5">
-        <div class="box-description">
-        <h1 class="title-products">0.3 LA CUCARACHA</h1>
-        <div class="small-description">
-          <div class="small-hr-position">
-          <hr class="small-hr">
-          </div>
-          <div class="small-paragraph">
-        <p>Compartir una taza de café con ustedes es nuestra pasión.Compartir una taza de café con ustedes es nuestra
-          pasión.Compartir una taza de café con ustedes es nuestra pasión.</p>
-          </div>
-        </div>
-          <div class="scale">
-            <p class="roasting-one">ROASTING: </p>
-            <p class="intensity-one">INTENSITY: </p>
+      <div class="row">
+        <div class="col-10">
+          <div class="navbar-description">
+            <div class="title-image-description">
+              <h1 class="alecto">Alecto</h1>
             </div>
-        </div>
-      </div>
-      <div class="col-5">
-        <div class="skill-image">
-        <img src="../images/coffee-3.png" alt="coffe1">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END PRODUCTS -->
-  <!-- KARUZELA -->
-  <div class="main-carousel" data-flickity='{"autoPlay": true, "wrapAround": true }'>
-    <div class="main">
-      <div class="background-about">
-        <img src="images/about-us.jpg" alt="about-us">
-      </div>
-      <div class="about-description">
-        <div class="text-about">
-          <h1 class="title-about">ABOUT US</h1>
-        </div>
-        <hr class="line-about">
-        <div class="right-about">
-          <div class="img-about">
-            <img src="images/3-person.png" alt="person3">
-          </div>
-          <div class="text-about-person">
-            <ol>
-              <li class="elizabeth">Elizabeth</li>
-            </ol>
-            <p class="p-about">Experiences barista from bahamas.
-              She says that Venezuela opened her eyes on coffe. "It's not about the taste", she says. "It's all about
-              the feelings".</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="background-about">
-        <img src="images/about-us.jpg" alt="about-us">
-      </div>
-      <div class="about-description">
-        <div class="text-about">
-          <h1 class="title-about">ABOUT US</h1>
-        </div>
-        <hr class="line-about">
-        <div class="right-about">
-          <div class="img-about">
-            <img src="images/2-person.png" alt="person2">
-          </div>
-          <div class="text-about-person">
-            <ol>
-              <li class="max">Max</li>
-            </ol>
-            <p class="p-about">Max is the austrian barista with years of experience from the hotels across the whole
-              Europe. "Venezuela coffee was a lightening experience for me! i have never drink such an amazing coffee!",
-              he says.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="background-about">
-        <img src="images/about-us.jpg" alt="about-us">
-      </div>
-      <div class="about-description">
-        <div class="text-about">
-          <h1 class="title-about">ABOUT US</h1>
-        </div>
-        <hr class="line-about">
-        <div class="right-about">
-          <div class="img-about">
-            <img src="images/1-person.png" alt="person1">
-          </div>
-          <div class="text-about-person">
-            <ol>
-              <li class="ping">Ping</li>
-            </ol>
-            <p class="p-about">Ping is the youngest in the team. He doesn't like calling coffee a mysterious act. He
-              says, a good
-              coffee is like a mathematical formula. Once you figured it out, every coffee you make is a masterpiece.
-            </p>
+            <div class="paragraph-image-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="button-image-description">
+              <button type="button" class="btn btn-outline-light">Learn more</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
-  <script src="js/functions.js"></script>
-  <script src="js/data.js"></script>
-  <script src="js/script.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- NAVBAR END -->
+  <!-- ABOUT START -->
+  <div class="about" id="about">
+    <div class="container text-center">
+      <div class="row">
+
+        <div class="col-10">
+          <div class="about-description">
+            <div class="title-about">
+              <p>About us</p>
+            </div>
+            <hr class="main-hr">
+            <div class="p-about">
+              <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                auctor augue. Donec pretium at mi vel luctus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="row">
+          <div class="col">
+            <div class="box">
+              <div class="cyrcle">
+                <div class="rocket">
+                  <i class="fa-solid fa-rocket"></i>
+                </div>
+                <div class="cyrcle-icon">
+                </div>
+              </div>
+            </div>
+            <div class="title-about-description">
+              <h2>Lorem ipsum</h2>
+            </div>
+            <div class="paragraph-about">
+              <p>Sed vitae suscipit odio, et interdum metus. In eleifend mauris quis dictum dignissim. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <div class="cyrcle">
+                <div class="rocket white">
+                  <i class="fa-brands fa-pagelines"></i>
+                </div>
+                <div class="cyrcle-icon flower">
+                </div>
+              </div>
+            </div>
+            <div class="title-about-description">
+              <h2>Lorem ipsum</h2>
+            </div>
+            <div class="paragraph-about">
+              <p>Sed vitae suscipit odio, et interdum metus. In eleifend mauris quis dictum dignissim. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <div class="cyrcle">
+                <div class="rocket">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div class="cyrcle-icon">
+                </div>
+              </div>
+            </div>
+            <div class="title-about-description">
+              <h2>Lorem ipsum</h2>
+            </div>
+            <div class="paragraph-about">
+              <p>Sed vitae suscipit odio, et interdum metus. In eleifend mauris quis dictum dignissim. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <div class="cyrcle">
+                <div class="rocket">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="cyrcle-icon">
+                </div>
+              </div>
+            </div>
+            <div class="title-about-description">
+              <h2>Lorem ipsum</h2>
+            </div>
+            <div class="paragraph-about">
+              <p>Sed vitae suscipit odio, et interdum metus. In eleifend mauris quis dictum dignissim. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">
+          <div class="button-position">
+            <div class="button-main">
+              <button type="button" class="button">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ABOUT END -->
+  <!-- APARAT START -->
+  <div class="aparat">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="image-aparat-position">
+            <div class="image-aparat">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="description-aparat">
+            <div class="title-aparat-position">
+              <div class="title-aparat">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+            <div class="paragraph-aparat-position">
+              <div class="paragraph-aparat">
+                <p>Suspendisse in dui sit amet augue volutpat accumsan. Ut imperdiet et elit a tempus. Proin facilisis
+                  nisi ac risus sollicitudin bibendum. In hac habitasse platea dictumst. In quis efficitur tortor, a
+                  dictum ipsum. Nunc pharetra ex vitae elit viverra, vitae lacinia neque sodales. Mauris ante est,
+                  hendrerit ut neque id, imperdiet imperdiet nulla.</p>
+              </div>
+            </div>
+            <div class="button-position-aparat">
+              <div class="button-main">
+                <button type="button" class="button">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- APARAT END -->
+  <!-- COMPUTER START -->
+  <div class="computer">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="description-computer">
+            <div class="title-computer-position">
+              <div class="title-computer">
+                <p>Dolor sit amet</p>
+              </div>
+            </div>
+            <div class="paragraph-computer-position">
+              <div class="paragraph-computer">
+                <p>Suspendisse in dui sit amet augue volutpat accumsan. Ut imperdiet et elit a tempus. Proin facilisis
+                  nisi ac risus sollicitudin bibendum. In hac habitasse platea dictumst. In quis efficitur tortor, a
+                  dictum ipsum. Nunc pharetra ex vitae elit viverra, vitae lacinia neque sodales. Mauris ante est,
+                  hendrerit ut neque id, imperdiet imperdiet nulla.</p>
+              </div>
+            </div>
+            <div class="button-position-computer">
+              <div class="button-main">
+                <button type="button" class="button">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="image-computer-position">
+            <div class="image-computer">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- COMPUTER END -->
+  <!-- ADAM START -->
+  <div class="adam">
+    <div class="adam-background-image"></div>
+    <div class="container text-center">
+      <div class="adam-position">
+        <div class="row">
+          <div class="col-10">
+            <div class="adam-image-position">
+              <div class="adam-image">
+              </div>
+            </div>
+            <div class="adam-description">
+              <div class="col-10">
+                <div class="adam-title-position">
+                  <div class="adam-title">
+                    <p class="adam-p-one">lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="adam-paragraph-position">
+                  <div class="adam-paragraph">
+                    <p class="adam-p-two">Adam Czajkowski</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ADAM END -->
+  <!-- SERVICES START -->
+  <div class="services" id="services">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-10">
+          <div class="services-description-position">
+            <div class="services-title-position">
+              <div class="services-title">
+                <p>Our Services</p>
+              </div>
+            </div>
+            <div class="services-hr-position">
+              <hr class="main-hr">
+            </div>
+            <div class="services-p-position">
+              <div class="services-p">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <div class="services-icon-position">
+            <div class="services-cyrcle">
+              <div class="services-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="services-icon-cyrcle">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="services-description-box">
+            <div class="services-description-box-title">
+              <p>Portfolio</p>
+            </div>
+            <div class="services-description-box-paragraph">
+              <p>Nullam purus eros, aliquet et iaculis eu, vehicula accumsan nulla. Morbi porttitor odio vel arcu
+                dapibus, et finibus nisi tempus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="services-icon-position">
+            <div class="services-cyrcle">
+              <div class="services-icon">
+                <i class="fa-solid fa-pencil"></i>
+              </div>
+              <div class="services-icon-cyrcle">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="services-description-box">
+            <div class="services-description-box-title">
+              <p>Design</p>
+            </div>
+            <div class="services-description-box-paragraph">
+              <p>Nullam purus eros, aliquet et iaculis eu, vehicula accumsan nulla. Morbi porttitor odio vel arcu
+                dapibus, et finibus nisi tempus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <div class="services-icon-position">
+            <div class="services-cyrcle">
+              <div class="services-icon">
+                <i class="fa-solid fa-forward"></i>
+              </div>
+              <div class="services-icon-cyrcle">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="services-description-box">
+            <div class="services-description-box-title">
+              <p>Branding</p>
+            </div>
+            <div class="services-description-box-paragraph">
+              <p>Nullam purus eros, aliquet et iaculis eu, vehicula accumsan nulla. Morbi porttitor odio vel arcu
+                dapibus, et finibus nisi tempus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="services-icon-position">
+            <div class="services-cyrcle">
+              <div class="services-icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div class="services-icon-cyrcle">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="services-description-box">
+            <div class="services-description-box-title">
+              <p>Development</p>
+            </div>
+            <div class="services-description-box-paragraph">
+              <p>Nullam purus eros, aliquet et iaculis eu, vehicula accumsan nulla. Morbi porttitor odio vel arcu
+                dapibus, et finibus nisi tempus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SERVICES END -->
+  <!-- TEAM START -->
+  <div class="team" id="work">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+          <div class="team-description-position">
+            <div class="team-description">
+              <div class="team-description-title">
+                <p>Meet our team</p>
+              </div>
+              <hr class="main-hr">
+              <div class="team-paragraph">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="team-image-position">
+            <div class="team-image">
+              <img src="/images/women-2.jpg" alt="women-2" class="image">
+              <div class="overlay">
+                <div class="text">John Doe</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="team-image-position">
+            <div class="team-image">
+              <img src="/images/women-3.jpg" alt="women-3">
+              <div class="overlay">
+                <div class="text">Yunru Xianmei</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="team-image-position">
+            <div class="team-image">
+              <img src="/images/women-4.jpg" alt="women-4">
+              <div class="overlay">
+                <div class="text">Yu Tian</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="team-image-position">
+            <div class="team-image">
+              <img src="/images/women-5.jpg" alt="women-5">
+              <div class="overlay">
+                <div class="text">Agata Kowalska</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="team-image-position">
+            <div class="team-image">
+              <img src="/images/women-2.jpg" alt="women-2">
+              <div class="overlay">
+                <div class="text">John Doe</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second-row">
+
+        <div class="row">
+          <div class="col">
+            <div class="team-image-position">
+              <div class="team-image">
+                <img src="/images/women-3.jpg" alt="women-3">
+                <div class="overlay">
+                  <div class="text">Yunru Xianmei</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="team-image-position">
+              <div class="team-image">
+                <img src="/images/women-4.jpg" alt="women-4">
+                <div class="overlay">
+                  <div class="text">Yu Tian</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="team-image-position">
+              <div class="team-image">
+                <img src="/images/women-2.jpg" alt="women-2">
+                <div class="overlay">
+                  <div class="text">John Doe</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="team-image-position">
+              <div class="team-image">
+                <img src="/images/women-3.jpg" alt="women-3">
+                <div class="overlay">
+                  <div class="text">Yunru Xianmei</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="team-image-position">
+              <div class="team-image">
+                <img src="/images/women-4.jpg" alt="women-2">
+                <div class="overlay">
+                  <div class="text">Yu Tian</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TEAM END -->
+  <!-- PRICING START-->
+  <div class="pricing" id="pricing">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="pricing-description-position">
+            <div class="pricing-description">
+              <div class="pricing-title">
+                <p>Pricing</p>
+              </div>
+              <hr class="main-hr">
+              <div class="pricing-paragraph">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-boxes-position">
+        <div class="row">
+          <div class="col">
+            <div class="pricing-box">
+              <div class="pricing-box-top">
+                <div class="pricing-salary">
+                  <p>$29</p>
+                </div>
+                <div class="pricing-box-paragraph">
+                  <p>Lorem impsum licence</p>
+                </div>
+              </div>
+              <div class="pricing-box-hr-position">
+                <hr class="pricing-box-hr">
+              </div>
+              <div class="pricing-box-bottom">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.Nunc tincidunt lacus dui.</p>
+              </div>
+            </div>
+            <div class="pricing-box-button">
+              <button type="button" class="button button-pricing">PURCHASE<i
+                  class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="pricing-box">
+              <div class="pricing-box-top">
+                <div class="pricing-salary">
+                  <p>$29</p>
+                </div>
+                <div class="pricing-box-paragraph">
+                  <p>Lorem impsum licence</p>
+                </div>
+              </div>
+              <div class="pricing-box-hr-position">
+                <hr class="pricing-box-hr">
+              </div>
+              <div class="pricing-box-bottom">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.Nunc tincidunt lacus dui.</p>
+              </div>
+            </div>
+            <div class="pricing-box-button">
+              <button type="button" class="button button-pricing">PURCHASE<i
+                  class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="pricing-box">
+              <div class="pricing-box-top">
+                <div class="pricing-salary">
+                  <p>$29</p>
+                </div>
+                <div class="pricing-box-paragraph">
+                  <p>Lorem impsum licence</p>
+                </div>
+              </div>
+              <div class="pricing-box-hr-position">
+                <hr class="pricing-box-hr">
+              </div>
+              <div class="pricing-box-bottom">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.Nunc tincidunt lacus dui.</p>
+              </div>
+            </div>
+            <div class="pricing-box-button">
+              <button type="button" class="button button-pricing">PURCHASE<i
+                  class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="pricing-box">
+              <div class="pricing-box-top">
+                <div class="pricing-salary">
+                  <p>$29</p>
+                </div>
+                <div class="pricing-box-paragraph">
+                  <p>Lorem impsum licence</p>
+                </div>
+              </div>
+              <div class="pricing-box-hr-position">
+                <hr class="pricing-box-hr">
+              </div>
+              <div class="pricing-box-bottom">
+                <p>Sed iaculis urna eget nibh volutpat interdum. Etiam ipsum nisi, tempus vehicula arcu tempor, porta
+                  auctor augue.Nunc tincidunt lacus dui.</p>
+              </div>
+            </div>
+            <div class="pricing-box-button">
+              <button type="button" class="button button-pricing">PURCHASE<i
+                  class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PRICING END -->
+  <!-- GEOGRAPHY START -->
+  <div class="geography">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-7">
+          <div class="geography-description-position">
+            <div class="geography-description">
+              <div class="geography-title">
+                <p>Dolor sit amet</p>
+              </div>
+              <div class="geography-paragraph">
+                <p>Integer enim mi, pellentesque eget risus id, lacinia suscipit nibh. Nunc eu malesuada nisi, vel
+                  posuere nisi. Donec ut nibh condimentum arcu laoreet posuere. Praesent varius ligula mi, sit amet
+                  volutpat sem placerat sit amet. Praesent dapibus vel nulla vel tristique. Phasellus sit amet massa
+                  aliquam, ultrices arcu id, convallis enim. Quisque ac nunc posuere, malesuada urna id, vestibulum
+                  tellus. </p>
+              </div>
+              <div class="geography-button-position">
+                <div class="button-main">
+                  <button type="button" class="button">Learn more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="geography-image-pasition">
+            <div class="geography-image">
+              <img src="/images/geography.jpeg" alt="geography">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- GEOGRAPHY END -->
+  <!-- END BANER START -->
+  <div class="baner">
+    <div class="baner-background-image"></div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+
+          <div class="baner-description-position">
+            <div class="baner-description">
+              <div class="baner-title">
+                <p class="psd">Try our <a href="#">PSD template</a> symu.co</p>
+              </div>
+              <div class="baner-button-position">
+                <div class="button-main baner-button">
+                  <button type="button" class="button">synu.com/freebles</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END BANER END -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/024f0574f0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
